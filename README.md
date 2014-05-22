@@ -45,3 +45,25 @@ class PageExample extends Page {
     }
 }
 ```
+
+If you think of the above classes as the "Controllers" in a typical MVC paradigm, the following templates are the "views".
+
+First, the page template
+```php
+<?php
+/* @var $cricket cricket\core\CricketContext */
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+        <?= $cricket->head() ?>
+    </head>
+    <body>
+        <?php $cricket->component("counter") ?>
+    </body>
+</html>
+```
+
+
