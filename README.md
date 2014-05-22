@@ -1,4 +1,4 @@
-cricket
+Cricket
 =======
 
 Cricket is a newly open sourced, yet very rich and mature PHP web application framework.  Cricket has been used for more than 5 years on internal projects and we've designed to share the love!
