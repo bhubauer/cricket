@@ -7,6 +7,13 @@ Cricket applications are built with Page and Component classes that are analogou
 
 Consider the following example of a simple page that contains a single component.  This component displays a current "count" number and offers methods to increment or decrement the number.
 
+The key things to make note of are:
+* The Page and Component classes are separate from the HTML layout (Controller and View of MVC)
+* The Page class adds the component as a child
+* The Component has state that is managed by cricket (instance variables)
+* The Component's template links directly to action methods in the Component class
+
+
 First, lets look at the Page and Component classes
 ```php
 use cricket\core\Page;
