@@ -5,6 +5,8 @@ Cricket is a newly open sourced, yet very rich and mature PHP web application fr
 
 Cricket applications are built with Page and Component classes that are analogous to a desktop application's Window and View hierarchy.    Cricket manages your state intuitively using just the instance variables in your Page and Component classes and allows your rendered HTML to directly link to (call) your component and page action methods.
 
+Cricket Pages and Components can be bundled with 
+
 ### A simple example
 
 Consider the following example of a simple page that contains a single component.  This component displays a current "count" number and offers methods to increment or decrement the number.
