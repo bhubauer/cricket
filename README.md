@@ -11,7 +11,7 @@ Please consult the WIKI for more details.
 
 ### A simple example
 
-Consider the following example of a simple page that contains a single component.  This component displays a current "count" number and offers methods to increment or decrement the number.
+Consider the following example of a simple page that contains a single component.  This component displays a current "count" number and offers methods to increment or decrement the number.  [Click here for a live example of the following](https://www.hubauer.com/cricket-dev/basic-example/page.php/example)
 
 The key things to make note of are:
 * The Page and Component classes are separate from the HTML layout (Controller and View of MVC)
