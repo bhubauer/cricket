@@ -1,0 +1,169 @@
+
+
+
+/* tables */
+
+
+
+div.table-fixed {
+    border: 1px solid #cccccc;
+}
+
+div.table-head {
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+div.table-body {
+    overflow-y:scroll;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+
+table.list {
+    width: 100%;
+}
+
+
+div.table-fixed div.table-body table.list {
+    border: none;
+}
+
+div.table-fixed div.table-head table.list {
+    border: none;
+}
+
+
+table.list td, table.list th {
+}
+
+
+table.list th {
+    text-align: center;
+    background-color: #d7d7d7;
+    font-weight: bold;
+    padding:3px;
+    border-right: 1px solid #999999;
+    cursor: pointer;
+}
+
+table.list td {
+    background-color: #f7f7f7;
+    padding:3px;
+}
+
+
+
+table.list tr.alt td {
+    background-color: #eaeaea;
+}
+
+
+
+body table.list .selected td {
+    background-color: #bde7a4;
+}
+div.container {
+    overflow:hidden;
+}
+
+
+table.list th.sort a {
+    color: black;
+}
+
+
+table.list th.sort_asc {
+    background-image: url(../img/arrows/up.png);
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+table.list th.sort_desc {
+    background-image: url(../img/arrows/down.png);
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+table.list th.sort_pending {
+	background-image: url(../img/indicator.gif) !important;
+	background-repeat: no-repeat;
+	background-position: 95% center;
+}
+
+
+table.list th.sort_asc a {
+    color: blue;
+}
+table.list th.sort_desc a {
+    color: blue;
+}
+
+
+table.list td.centered {
+    text-align: center;
+}
+
+
+a.previous_page {
+    background-image: url(../img/arrows/circle_left.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover.previous_page, a:hover.next_page {
+	text-decoration: underline;
+}
+
+a.next_page {
+    background-image: url(../img/arrows/circle_right.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* PAGINATION */
+div.pagination {
+    padding: 3px;
+    margin: 3px;
+}
+
+div.pagination a {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #91B5D3;
+
+    text-decoration: none; /* no underline */
+    color: #000099;
+}
+
+div.pagination a:hover, div.pagination a:active {
+    border: 1px solid #000099;
+
+    color: #000;
+}
+
+div.pagination span.current {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #91b5d3;
+
+    font-weight: bold;
+    background-color: #91b5d3;
+    color: #FFF;
+}
+
+div.pagination span.disabled {
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    border: 1px solid #EEE;
+
+    color: #DDD;
+}
