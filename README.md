@@ -79,11 +79,16 @@ use cricket\utils\Utils;
     <body>
         <div style="max-width:500px;">
             <h1>Basic Cricket Example</h1>
-            <p>This example shows a simple Cricket page with one component.  The box below is rendered by a stand alone component object which is able to interact with the user and update itself independently of the page.</p>
+            <p>
+                This example shows a simple Cricket page with one component.  
+                The box below is rendered by a stand alone component object which is 
+                able to interact with the user and update itself independently of the page.
+            </p>
         </div>
         <?php $cricket->component("counter") ?>
     </body>
-</html>```
+</html>
+```
 
 Next, lets look at the CounterPanel template:
 ```php
