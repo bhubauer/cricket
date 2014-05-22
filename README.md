@@ -1,7 +1,7 @@
 cricket
 =======
 
-Cricket is a newly open sourced, yet very rich and mature PHP web application framework.
+Cricket is a newly open sourced, yet very rich and mature PHP web application framework.  Cricket has been used for more than 5 years on internal projects and we've designed to share the love!
 
 Cricket applications are built with Page and Component classes that are analogous to a desktop application's Window and View hierarchy. 
 
