@@ -66,4 +66,19 @@ First, the page template
 </html>
 ```
 
+Next, lets look at the CounterPanel template:
+```php
+<?php
+/* @var $cricket cricket\core\CricketContext */
+/* @var $count int */
+?>
 
+<div>
+    Count = <?= $count ?>
+</div>
+<div style="margin-top:1em;">
+    <input type="button" value = "-" onclick="<?= $cricket->onclick('decrement') ?>">
+    &nbsp;
+    <input type="button" value = "+" onclick="<?= $cricket->onclick('increment') ?>">
+</div>
+```
