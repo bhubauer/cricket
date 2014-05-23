@@ -9,6 +9,12 @@ Cricket applications are built with Page and Component classes that are analogou
 
 Each page and component class can be bundled with its own resources (templates, images, js, css, etc.), and a component can render itself independently of the page and all other components. This independence allows pages and components to be truly sharable and reusable. 
 
+Features and benefits of Cricket
+* Familiar GUI style component hierarchy where each component manages its own state and rendering.
+* Page and Component classes can bundle their own static resources for plug-and-play style reuse.
+* Template Inheritance
+* Direct linking of user actions to page and component methods
+
 Please consult the [WIKI](https://github.com/bhubauer/cricket/wiki) for more details.
 
 ### A simple example
